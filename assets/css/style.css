@@ -1093,3 +1093,34 @@ img.portfolio-card:hover {
 .lash:hover {
   transform: scale(1.05); /* Efecto de agrandamiento al hacer hover */
 }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .custom-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff69b4; /* Rosita intenso */
+            color: white;
+            text-decoration: none;
+            border-radius: 25px; /* Bordes suaves */
+            box-shadow: 0 4px 6px rgba(128, 0, 128, 0.3); /* Sombra morada */
+            text-align: center;
+            transition: background-color 0.3s ease;
+            font-size: 1rem;
+        }
+
+        .custom-button:hover {
+            background-color: #ff1493; /* Cambio de color al pasar el cursor */
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 600px) {
+            .custom-button {
+                width: 80%; /* Ajuste de ancho en dispositivos pequeños */
+                padding: 15px 30px;
+                font-size: 1.2rem;
+            }
+        }
