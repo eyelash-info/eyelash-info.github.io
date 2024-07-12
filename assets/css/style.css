@@ -1077,3 +1077,19 @@ img.portfolio-card:hover {
         border-radius: 10px; /* Bordes redondeados menos pronunciados en pantallas pequeñas */
     }
 }
+.lash {
+  font-size: 1.25em; /* Agranda el tamaño de la fuente */
+  font-weight: bold; /* Negrita para mayor énfasis */
+  color: #ff69b4; /* Color llamativo, en este caso, rosa fuerte */
+  background-color: #fff0f5; /* Fondo suave para contraste */
+  padding: 10px; /* Espaciado interno para una mejor apariencia */
+  border: 2px solid #ff69b4; /* Borde del mismo color del texto */
+  border-radius: 8px; /* Bordes redondeados para suavizar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para resaltar */
+  text-align: center; /* Centrar el texto */
+  transition: transform 0.3s ease-in-out; /* Transición suave al hacer hover */
+}
+
+.lash:hover {
+  transform: scale(1.05); /* Efecto de agrandamiento al hacer hover */
+}
